@@ -26,7 +26,7 @@
 
 1. قم بتحميل أو استنساخ هذا المستودع:
 bash 
-   git clone https://github.com/yourusername/mohamed-saad-portfolio.git
+   git clone https://github.com/mohamedsaad2006/mohamed-saad-portfolio.git
    2. افتح ملف `index.html` في متصفح الويب الخاص بك.
 
 ## الاستخدام
