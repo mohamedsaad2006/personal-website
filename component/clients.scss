@@ -1,0 +1,32 @@
+.clients{
+    z-index: 1;
+}
+.clients__wrapper {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-align: center;
+    
+  }
+  
+  .clients__opinions {
+    scroll-snap-align: center;
+    width: 100%; 
+    margin-right: 20px; 
+    flex: 0 0 auto; 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    z-index: 5;
+  
+  }
+  .clients__opinion{
+    margin-right: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+    
+  }
+  

@@ -1,0 +1,7 @@
+@mixin twocolumnsn($col-count: 0 , $column-gap: 0 , $row-gap: 0){
+    display: grid;
+    grid-template-columns: repeat($col-count: 2 , 1fr);
+    column-gap: $column-gap;
+    row-gap: $row-gap;
+}
+

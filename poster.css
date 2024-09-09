@@ -1,0 +1,45 @@
+.intro{
+    position: relative;
+    background-color: palevioletred;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bold;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+    padding-top:15px;
+    text-decoration: underline overline;
+    box-shadow: 10px 10px  gray;
+}
+.two{
+    font-family: "Dancing Script", cursive;
+    color: palevioletred;
+    font-size: 80px;
+    text-align: center;
+
+}
+.background{
+
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 144px 0;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    border-radius: 25px;
+    box-shadow: 10px 10px  gray;
+}
+.personal{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    padding-left: 50px;
+    
+
+    
+}

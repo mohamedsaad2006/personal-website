@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result"></div>
+    <br>
+    <a href="file:///G:/Mohamed/almdrasa/css/Advanced%20css%20coursr/Avanced%20css%20project/index.html">Home To Back</a>
+    <script>
+      const resulslist = document.getElementById("result");
+
+      new URLSearchParams(window.location.search).forEach((value, name) => {
+        const textNode = document.createTextNode(`${name}: ${value}`);
+        resulslist.appendChild(textNode);
+        resulslist.appendChild(document.createElement("br"));
+      });
+    </script>
+</body>
+</html>

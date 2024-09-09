@@ -1,0 +1,53 @@
+#skills{
+position: relative;
+top: 7rem;
+z-index: 1;
+
+}
+.skills_list{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+padding-left: 3rem;
+gap: 7rem;
+}
+
+.section--with-pg{
+padding: 11rem 0;
+}
+.section--with-pg::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 100vw;
+background-color: var(--color-gray);
+justify-self: center;
+z-index: -1;
+}
+.skills{
+background-color: var(--color-gray);
+}
+.skills_list{
+
+row-gap: 1rem;
+
+}
+.skills_title{
+font-size: var(--font-size-38);
+font-weight: var(--font-weight-seme-bold);
+
+}
+.skills__years{
+display: inline-block;
+font-size: var(--font-size-18);
+font-weight: var(--font-weight-regular);
+margin-top: 1rem;
+}
+.skills_items{
+transition: all .3s;
+user-select: none;
+}
+.skills_items:hover{
+
+text-shadow: 0 0 2px var(--color-green);
+
+}

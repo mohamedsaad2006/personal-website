@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit
+}
+*,*::before , *::after{
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    display: inline-block;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 0;
+}   
+ol , ul{
+    list-style: none;
+  
+}
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top: 5rem;
+    background-color: var(--color-background)
+    
+}
+.container{
+    display: grid;
+    row-gap: 6rem;
+    cursor: pointer;
+    margin: auto;
+    max-width: var(--container-width);
+    padding-inline: va(var(--gutter));
+     font-size: 16px;
+     font-family: "Raleway", sans-serif;
+     background-color: var(--color-background);
+     color:var(--color-text);
+     font-weight: var(--font-weight-seme-bold);
+}
+
+.burger-menu_checkbox{
+  display:none;
+}
+
+
+
+.container:has(#bio:target) .navigation__bio ,
+.container:has(#skills:target) .navigation__skills,
+.container:has(#video:target) .navigation__video,
+.container:has(#project:target) .navigation__project,
+.container:has(#clients:target) .navigation__clients,
+.container:has(#contact:target) .navigation__contact{    
+    color: var(--color-blue);
+    text-decoration: underline;
+    font-weight: var(--font-weight--bold);
+    
+}  
+.navigation__link:hover{
+    transition: all 3s;
+    transform:scale(1.1);
+
+}
+
+
+

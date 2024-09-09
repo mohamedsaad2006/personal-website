@@ -1,0 +1,20 @@
+.section{
+    position: relative;
+    align-items: start;
+    width:100%;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    padding-left: 7.5rem;
+}
+.h2__heading{
+    font-size: var(--font-size-65);
+    font-weight: var(--font-weight--bold);
+    margin-top: 3.7rem;
+    padding-bottom: 5rem;
+    transform: uppercase;;
+}
+.h3__heading{
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight--bold);
+    margin-bottom: 2.5rem;
+}
