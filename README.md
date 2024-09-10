@@ -25,8 +25,10 @@
 ## التثبيت
 
 1. قم بتحميل أو استنساخ هذا المستودع:
-bash 
-   git clone https://[github.com/mohamedsaad2006/mohamed-saad-portfolio.git](https://github.com/mohamedsaad2006/personal-website)
+
+ 
+  bash git clone https://[github.com/mohamedsaad2006/mohamed-saad-portfolio.git](https://github.com/mohamedsaad2006/personal-website)
+  
    2. افتح ملف `index.html` في متصفح الويب الخاص بك.
    3.   MY site is live at https://mohamedsaad2006.github.io/personal-website/
 
