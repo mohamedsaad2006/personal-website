@@ -70,15 +70,16 @@ Welcome to the Mohamed Saad Portfolio! This document will guide you through the 
 
 1. [Overview](#overview)
 2. [Navigation](#navigation)
-3. [Sections](#sections)
+3. Instlation.
+4. [Sections](#sections)
    - [Bio](#bio)
    - [Skills](#skills)
    - [Media](#media)
    - [Projects](#projects)
    - [Clients](#clients)
    - [Contact](#contact)
-4. [Additional Features](#additional-features)
-5. [Troubleshooting](#troubleshooting)
+5. [Additional Features](#additional-features)
+6. [Troubleshooting](#troubleshooting)
 
 ## Overview
 
@@ -88,6 +89,9 @@ This portfolio showcases the skills, projects, and testimonials of Mohamed Saad,
 
 The website features a burger menu for easy navigation. Clicking on the menu icon will reveal links to different sections of the portfolio:
 
+##Installation
+1. Download or clone this repository: bash git clone https://github.com/mohamedsaad2006/mohamed-saad-portfolio.git 2. Open the index.html file in your web browser.
+3. MY site is live at https://mohamedsaad2006.github.io/personal-website/
 - **Bio**
 - **Skills**
 - **Media**
