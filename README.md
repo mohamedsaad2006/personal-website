@@ -92,8 +92,8 @@ This portfolio showcases the skills, projects, and testimonials of Mohamed Saad,
 The website features a burger menu for easy navigation. Clicking on the menu icon will reveal links to different sections of the portfolio:
 
 ## Instllation
-1. Download or clone this repository: bash git clone
-   https://github.com/mohamedsaad2006/mohamed-saad-portfolio.git
+1. Download or clone this repository:  bash git clone
+     https://[github.com/mohamedsaad2006/mohamed-saad-portfolio.git](https://github.com/mohamedsaad2006/personal-website)
 2. Open the index.html file in your web browser.
 3. MY site is live at https://mohamedsaad2006.github.io/personal-website/
 
